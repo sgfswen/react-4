@@ -1,8 +1,7 @@
-import React    from 'react';
+import React from 'react';
 import { Link } from 'react-router';
-
-import { base } from '../../settings.json';
 import './NotFoundPage.styl';
+import { base } from '../../settings';
 
 export default (props) => (
   <div class='text-center'>
@@ -19,7 +18,7 @@ export default (props) => (
     </pre>
     <div class='panel panel-heading'>
       <p>
-        Sorry, but page you are looking is not found
+        Sorry, but page you are looking is not found.
         Please, contact support team.
       </p>
       <div class='small muted'>

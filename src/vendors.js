@@ -1,9 +1,8 @@
 import 'jquery';
-import 'toastr';
-import 'toastr/build/toastr.css';
-
 import 'react';
 import 'react-dom';
+import 'redux';
+import 'react-redux';
+import 'react-router';
 import 'react-router-scroll';
-
-import 'purecss/build/pure.css';
+import 'bootswatch/paper/bootstrap.css';

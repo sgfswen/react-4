@@ -1,20 +1,15 @@
-# purecss [![build](https://travis-ci.org/daggerok/react.svg?branch=master)](https://travis-ci.org/daggerok/react)
-
-stack:
-- react
-- purecss
+# react [![build](https://travis-ci.org/daggerok/react.svg?branch=master)](https://travis-ci.org/daggerok/react)
 
 ```bash
 npm i
 npm start
+npm run lint
+npm run compile
 npm run build
-npm run webpack
+npm run serve
+npm run ghpages
+npm run ghserve
 ```
-
-webpack-dev-server / browser-sync:
-
-- proxy /api/ -> http://localhost:8080/api/
-- any fallbacks -> /react/index.html
 
 npm update versions
 
@@ -22,6 +17,3 @@ npm update versions
 npm i -g npm-check-updates
 ncu -u
 ```
-
-links:
-- [purecss](http://purecss.io/)

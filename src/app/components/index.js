@@ -1,11 +1,10 @@
 import React from 'react';
 
-import { base } from '../settings.json';
-
 export default ({ children, router }) => (
   <div>
-    <div class='navbar' title="React" />
-
+    <h2 class="text-center">
+      React App
+    </h2>
     <div class='container-fluid'>
       {children && React.cloneElement(children)}
     </div>

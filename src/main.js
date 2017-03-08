@@ -1,14 +1,12 @@
-import React                from 'react';
-import { render }           from 'react-dom';
-import $                    from 'jquery';
+import React from 'react';
+import { render } from 'react-dom';
+import Application from './app/Application';
 
-import Application          from './app/Application';
-import { base }             from './app/settings.json';
-
-// <base href="/..."/>
-$('head')
-  .append($('base')
-    .attr('href', base.href));
+// // prepare base href using webpack
+// import $ from 'jquery';
+// import { base } from './app/settings';
+// // <base href="/..."/>
+// $('base').attr('href', base.href);
 
 // bootstrap app
 render(
